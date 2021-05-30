@@ -1,0 +1,7 @@
+I downloaded the data sets for both variables separately from the Climate Data Store by inputting the geo-coordinates for Ghana.
+
+I then used CDO and the outputtab operator to extract the variable data for Spintex alone and piped the output to a csv file.
+
+I read the files in my python script by using methods from the Pandas python library and manipulated the data into a DataFrame for easy analysis.
+
+I plotted the graph of the correlation in python by using the Matplotlib libray and saved the output to a png file.

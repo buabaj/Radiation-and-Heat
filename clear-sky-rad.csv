@@ -1,0 +1,3 @@
+cdo -outputtab,value -remapnn,"lon=-0.12385_lat=5.63096" clear-sky-radiation_2021-03-20.nc > clear-sky-rad.csv 
+CDO-script 
+echo cdo -outputtab,value -remapnn,lon=-0.12385_lat=5.63096 clear-sky-radiation_2021-03-20.nc
